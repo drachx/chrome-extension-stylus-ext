@@ -3,7 +3,18 @@
     visibility: hidden !important;
 }
 
+/* Youtube */
 #player-ads {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/* Google */
+#main #cnt #taw {
+    display: none !important;
+    visibility: hidden !important;
+}
+#main #cnt #extrares {
     display: none !important;
     visibility: hidden !important;
 }
