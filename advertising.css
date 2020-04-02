@@ -1,0 +1,9 @@
+.advertising {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+#player-ads {
+    display: none !important;
+    visibility: hidden !important;
+}
