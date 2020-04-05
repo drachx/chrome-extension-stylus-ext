@@ -3,6 +3,11 @@
     visibility: hidden !important;
 }
 
+.ad-container {
+    display: none !important;
+    visibility: hidden !important;   
+}
+
 /* Youtube */
 #player-ads {
     display: none !important;
