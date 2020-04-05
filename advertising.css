@@ -8,6 +8,11 @@
     visibility: hidden !important;   
 }
 
+[id^=google_ads_iframe], [id^=ads-sidebar] {
+    display: none !important;
+    visibility: hidden !important;   
+}
+
 /* Youtube */
 #player-ads {
     display: none !important;
