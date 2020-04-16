@@ -1,12 +1,8 @@
-.advertising {
+.advertising, .ad-desktop, .ad-mobile, .ad-container {
     display: none !important;
     visibility: hidden !important;
 }
 
-.ad-container {
-    display: none !important;
-    visibility: hidden !important;   
-}
 
 [id^=google_ads_iframe], [id^=ads-sidebar] {
     display: none !important;
@@ -33,4 +29,3 @@
     display: none !important;
     visibility: hidden !important;
 }
-
