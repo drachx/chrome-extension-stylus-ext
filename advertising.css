@@ -1,10 +1,10 @@
-.advertising, .ad-desktop, .ad-mobile, .ad-container {
+.advertising, .ad-desktop, .ad-mobile, .ad-container, .ads, iframe {
     display: none !important;
     visibility: hidden !important;
 }
 
 
-[id^=google_ads_iframe], [id^=ads-sidebar] {
+[id^=google_ads_iframe], [id^=ads-sidebar], [id^=container-00e], [id^=container-ed], [id^=marketing_] {
     display: none !important;
     visibility: hidden !important;   
 }
