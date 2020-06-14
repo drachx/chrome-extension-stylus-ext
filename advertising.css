@@ -29,3 +29,9 @@
     display: none !important;
     visibility: hidden !important;
 }
+
+/* DuckDuckGo */
+#ads, .js-sidebar-ads {
+    display: none !important;
+    visibility: hidden !important;
+}
