@@ -1,4 +1,4 @@
-.advertising, .ad-desktop, .ad-mobile, .ad-container, .ads, iframe {
+.advertising, .ad-desktop, .ad-mobile, .ad-container, .ads, #after-download-ad, iframe {
     display: none !important;
     visibility: hidden !important;
 }
