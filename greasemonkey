@@ -6,11 +6,12 @@
 
 
 // SKIPS YOUTUBE ADS every 1sec check
-var loader = setInterval(function () {
-  if(document.readyState !== "complete") return;
-  var buttons = document.getElementsByClassName("ytp-ad-skip-button");
-  if (buttons && buttons.length > 0) {
-    buttons[0].click();
-  }
-}, 1000);
-           
+if (document.URL.split("/").indexOf("www.youtube.com") > -1) {
+  var loader = setInterval(function () {
+    if(document.readyState !== "complete") return;
+    var buttons = document.getElementsByClassName("ytp-ad-skip-button");
+    if (buttons && buttons.length > 0) {
+      buttons[0].click();
+    }
+  }, 1000);
+}
