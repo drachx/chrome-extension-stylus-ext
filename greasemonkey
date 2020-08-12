@@ -1,0 +1,16 @@
+// ==UserScript==
+// @name     Skip youtube addon
+// @version  1
+// @grant    none
+// ==/UserScript==
+
+
+// SKIPS YOUTUBE ADS every 1sec check
+var loader = setInterval(function () {
+  if(document.readyState !== "complete") return;
+  var buttons = document.getElementsByClassName("ytp-ad-skip-button");
+  if (buttons && buttons.length > 0) {
+    buttons[0].click();
+  }
+}, 1000);
+           
