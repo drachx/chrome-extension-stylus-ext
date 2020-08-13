@@ -15,7 +15,7 @@
     visibility: hidden !important;
 }
 
-.video-ads .ytp-ad-overlay-slot {
+.video-ads .ytp-ad-overlay-slot, .ytp-paid-content-overlay, .ytp-ad-overlay-image {
     display: none !important;
     visibility: hidden !important;
 }
