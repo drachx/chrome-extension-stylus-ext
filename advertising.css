@@ -10,7 +10,7 @@
 }
 
 /* Youtube */
-#player-ads {
+#player-ads, .sparkles-light-cta {
     display: none !important;
     visibility: hidden !important;
 }
