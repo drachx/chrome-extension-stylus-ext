@@ -1,8 +1,8 @@
+
 .advertising, .ad-desktop, .ad-mobile, .ad-container, .ads, #after-download-ad, iframe {
     display: none !important;
     visibility: hidden !important;
 }
-
 
 [id^=google_ads_iframe], [id^=ads-sidebar], [id^=container-00e], [id^=container-ed], [id^=marketing_] {
     display: none !important;
@@ -34,4 +34,11 @@
 #ads, .js-sidebar-ads {
     display: none !important;
     visibility: hidden !important;
+}
+
+
+/* Google Translate, Gmail */
+#contentframe iframe, .adn.ads {
+    display: initial !important;
+    visibility: initial !important;
 }
