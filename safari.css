@@ -1,0 +1,14 @@
+#maillist iframe {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+.app .page .ad {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+.cockpit iframe, .cockpit .search {
+    display: none !important;
+    visibility: hidden !important;
+}
