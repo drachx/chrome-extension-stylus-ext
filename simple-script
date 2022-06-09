@@ -1,0 +1,41 @@
+* {
+/*background-color: white !important;*/
+font-size: 14px !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+color: inherit -50% !important;
+}
+
+img, .badge {
+    display: none !important;
+    visibility: none !important;
+    height: 0 !important;
+}
+
+#subscribe-button {
+    visibility: hidden !important;
+}
+
+video, .video-ads, .ytp-iv-video-content, .ytp-cued-thumbnail-overlay {
+    visibility: hidden !important;
+}
+
+p, h1, h2, h3, h4, h5, h6, li {
+    color: grey !important;
+}
+
+.price-text {
+    display: contents !important;
+}
+
+.article-body__section span {
+    background-color: whitesmoke !important;
+    color: grey !important;
+}
+
+div#lv-equip-items table td:nth-child(3) {
+    display: none !important;
+}
+div#lv-equip-items table td:nth-child(4) {
+    display: none !important;
+}
